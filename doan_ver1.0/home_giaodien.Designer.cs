@@ -29,24 +29,22 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.panel_banner = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.app_account = new System.Windows.Forms.Panel();
-            this.pic_account = new System.Windows.Forms.PictureBox();
-            this.txt_account = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.app_cuahang = new System.Windows.Forms.Panel();
+            this.txt_account = new System.Windows.Forms.Label();
+            this.pic_account = new System.Windows.Forms.PictureBox();
+            this.app_account = new System.Windows.Forms.Panel();
             this.txt_cuahang = new System.Windows.Forms.Label();
-            this.app_SanPham = new System.Windows.Forms.Panel();
-            this.pic_sanpham = new System.Windows.Forms.PictureBox();
+            this.app_cuahang = new System.Windows.Forms.Panel();
             this.txt_sanpham = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pic_sanpham = new System.Windows.Forms.PictureBox();
+            this.app_SanPham = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.panel_HD = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -78,16 +76,8 @@
             this.rad_TK_DanhMuc = new System.Windows.Forms.RadioButton();
             this.rad_TK_Ten = new System.Windows.Forms.RadioButton();
             this.rad_TK_Ma = new System.Windows.Forms.RadioButton();
-            this.panel_HDxuat = new System.Windows.Forms.Panel();
-            this.table_info_accout = new System.Windows.Forms.DataGridView();
-            this.control_HDxuat = new System.Windows.Forms.TabControl();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.btn_seach_HDxuat = new System.Windows.Forms.PictureBox();
-            this.cb_HDxuat = new System.Windows.Forms.ComboBox();
-            this.btn_add_HDxuat = new System.Windows.Forms.Button();
-            this.txt_seach_HDxuat = new System.Windows.Forms.TextBox();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel_banner = new System.Windows.Forms.Panel();
             this.pannel_cuahang = new System.Windows.Forms.Panel();
             this.control_cuahang = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
@@ -124,28 +114,32 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel_banner.SuspendLayout();
-            this.app_account.SuspendLayout();
+            this.control_HDxuat = new System.Windows.Forms.TabControl();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.btn_seach_HDxuat = new System.Windows.Forms.PictureBox();
+            this.cb_HDxuat = new System.Windows.Forms.ComboBox();
+            this.btn_add_HDxuat = new System.Windows.Forms.Button();
+            this.txt_seach_HDxuat = new System.Windows.Forms.TextBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label7 = new System.Windows.Forms.Label();
+            this.table_info_accout = new System.Windows.Forms.DataGridView();
+            this.panel_HDxuat = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pic_account)).BeginInit();
+            this.app_account.SuspendLayout();
             this.app_cuahang.SuspendLayout();
-            this.app_SanPham.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_sanpham)).BeginInit();
-            this.panel5.SuspendLayout();
+            this.app_SanPham.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel6.SuspendLayout();
             this.panel_HD.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGV_sanPham)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.data_GV_timKiem)).BeginInit();
-            this.panel_HDxuat.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.table_info_accout)).BeginInit();
-            this.control_HDxuat.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_seach_HDxuat)).BeginInit();
-            this.tabPage4.SuspendLayout();
+            this.panel_banner.SuspendLayout();
             this.pannel_cuahang.SuspendLayout();
             this.control_cuahang.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -158,40 +152,30 @@
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage8.SuspendLayout();
+            this.control_HDxuat.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_seach_HDxuat)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.table_info_accout)).BeginInit();
+            this.panel_HDxuat.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel_banner
+            // imageList1
             // 
-            this.panel_banner.BackColor = System.Drawing.Color.White;
-            this.panel_banner.Controls.Add(this.label1);
-            this.panel_banner.Location = new System.Drawing.Point(331, 60);
-            this.panel_banner.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel_banner.Name = "panel_banner";
-            this.panel_banner.Size = new System.Drawing.Size(883, 482);
-            this.panel_banner.TabIndex = 0;
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // label1
+            // txt_account
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(403, 164);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "hello";
-            // 
-            // app_account
-            // 
-            this.app_account.BackColor = System.Drawing.Color.RosyBrown;
-            this.app_account.Controls.Add(this.pic_account);
-            this.app_account.Controls.Add(this.txt_account);
-            this.app_account.Location = new System.Drawing.Point(12, 60);
-            this.app_account.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.app_account.Name = "app_account";
-            this.app_account.Size = new System.Drawing.Size(293, 62);
-            this.app_account.TabIndex = 1;
-            this.app_account.Click += new System.EventHandler(this.app_account_Click);
+            this.txt_account.AutoSize = true;
+            this.txt_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_account.Location = new System.Drawing.Point(69, 23);
+            this.txt_account.Name = "txt_account";
+            this.txt_account.Size = new System.Drawing.Size(155, 20);
+            this.txt_account.TabIndex = 0;
+            this.txt_account.Text = "Quản lý tài khoản";
+            this.txt_account.Click += new System.EventHandler(this.app_account_Click);
             // 
             // pic_account
             // 
@@ -205,22 +189,28 @@
             this.pic_account.TabStop = false;
             this.pic_account.Click += new System.EventHandler(this.app_account_Click);
             // 
-            // txt_account
+            // app_account
             // 
-            this.txt_account.AutoSize = true;
-            this.txt_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_account.Location = new System.Drawing.Point(69, 23);
-            this.txt_account.Name = "txt_account";
-            this.txt_account.Size = new System.Drawing.Size(155, 20);
-            this.txt_account.TabIndex = 0;
-            this.txt_account.Text = "Quản lý tài khoản";
-            this.txt_account.Click += new System.EventHandler(this.app_account_Click);
+            this.app_account.BackColor = System.Drawing.Color.RosyBrown;
+            this.app_account.Controls.Add(this.pic_account);
+            this.app_account.Controls.Add(this.txt_account);
+            this.app_account.Location = new System.Drawing.Point(12, 60);
+            this.app_account.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.app_account.Name = "app_account";
+            this.app_account.Size = new System.Drawing.Size(293, 62);
+            this.app_account.TabIndex = 1;
+            this.app_account.Click += new System.EventHandler(this.app_account_Click);
             // 
-            // imageList1
+            // txt_cuahang
             // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.txt_cuahang.AutoSize = true;
+            this.txt_cuahang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cuahang.Location = new System.Drawing.Point(69, 23);
+            this.txt_cuahang.Name = "txt_cuahang";
+            this.txt_cuahang.Size = new System.Drawing.Size(181, 20);
+            this.txt_cuahang.TabIndex = 0;
+            this.txt_cuahang.Text = "Danh sách cửa hàng";
+            this.txt_cuahang.Click += new System.EventHandler(this.app_cuahang_Click);
             // 
             // app_cuahang
             // 
@@ -233,16 +223,27 @@
             this.app_cuahang.TabIndex = 2;
             this.app_cuahang.Click += new System.EventHandler(this.app_cuahang_Click);
             // 
-            // txt_cuahang
+            // txt_sanpham
             // 
-            this.txt_cuahang.AutoSize = true;
-            this.txt_cuahang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_cuahang.Location = new System.Drawing.Point(69, 23);
-            this.txt_cuahang.Name = "txt_cuahang";
-            this.txt_cuahang.Size = new System.Drawing.Size(181, 20);
-            this.txt_cuahang.TabIndex = 0;
-            this.txt_cuahang.Text = "Danh sách cửa hàng";
-            this.txt_cuahang.Click += new System.EventHandler(this.app_cuahang_Click);
+            this.txt_sanpham.AutoSize = true;
+            this.txt_sanpham.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_sanpham.Location = new System.Drawing.Point(69, 23);
+            this.txt_sanpham.Name = "txt_sanpham";
+            this.txt_sanpham.Size = new System.Drawing.Size(192, 20);
+            this.txt_sanpham.TabIndex = 0;
+            this.txt_sanpham.Text = "Danh Sách Sản Phẩm\r\n";
+            this.txt_sanpham.Click += new System.EventHandler(this.app_SanPham_Click);
+            // 
+            // pic_sanpham
+            // 
+            this.pic_sanpham.Image = global::doan_ver1._0.Properties.Resources.feature;
+            this.pic_sanpham.Location = new System.Drawing.Point(0, 2);
+            this.pic_sanpham.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pic_sanpham.Name = "pic_sanpham";
+            this.pic_sanpham.Size = new System.Drawing.Size(72, 50);
+            this.pic_sanpham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic_sanpham.TabIndex = 1;
+            this.pic_sanpham.TabStop = false;
             // 
             // app_SanPham
             // 
@@ -256,38 +257,15 @@
             this.app_SanPham.TabIndex = 2;
             this.app_SanPham.Click += new System.EventHandler(this.app_SanPham_Click);
             // 
-            // pic_sanpham
+            // label4
             // 
-            this.pic_sanpham.Image = global::doan_ver1._0.Properties.Resources.feature;
-            this.pic_sanpham.Location = new System.Drawing.Point(0, 2);
-            this.pic_sanpham.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pic_sanpham.Name = "pic_sanpham";
-            this.pic_sanpham.Size = new System.Drawing.Size(72, 50);
-            this.pic_sanpham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pic_sanpham.TabIndex = 1;
-            this.pic_sanpham.TabStop = false;
-            // 
-            // txt_sanpham
-            // 
-            this.txt_sanpham.AutoSize = true;
-            this.txt_sanpham.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_sanpham.Location = new System.Drawing.Point(69, 23);
-            this.txt_sanpham.Name = "txt_sanpham";
-            this.txt_sanpham.Size = new System.Drawing.Size(192, 20);
-            this.txt_sanpham.TabIndex = 0;
-            this.txt_sanpham.Text = "Danh Sách Sản Phẩm\r\n";
-            this.txt_sanpham.Click += new System.EventHandler(this.app_SanPham_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Silver;
-            this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Location = new System.Drawing.Point(12, 304);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(293, 62);
-            this.panel5.TabIndex = 2;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(69, 23);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(96, 25);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Hóa Đơn";
             // 
             // pictureBox4
             // 
@@ -300,26 +278,26 @@
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
             // 
-            // label4
+            // panel5
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(69, 23);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 25);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Hóa Đơn";
+            this.panel5.BackColor = System.Drawing.Color.Silver;
+            this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Controls.Add(this.label4);
+            this.panel5.Location = new System.Drawing.Point(12, 304);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(293, 62);
+            this.panel5.TabIndex = 2;
             // 
-            // panel6
+            // label5
             // 
-            this.panel6.BackColor = System.Drawing.Color.Silver;
-            this.panel6.Controls.Add(this.pictureBox5);
-            this.panel6.Controls.Add(this.label5);
-            this.panel6.Location = new System.Drawing.Point(12, 383);
-            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(293, 62);
-            this.panel6.TabIndex = 2;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(69, 23);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(181, 25);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Quản lý tài khoản";
             // 
             // pictureBox5
             // 
@@ -332,15 +310,16 @@
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
             // 
-            // label5
+            // panel6
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(69, 23);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(181, 25);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Quản lý tài khoản";
+            this.panel6.BackColor = System.Drawing.Color.Silver;
+            this.panel6.Controls.Add(this.pictureBox5);
+            this.panel6.Controls.Add(this.label5);
+            this.panel6.Location = new System.Drawing.Point(12, 383);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(293, 62);
+            this.panel6.TabIndex = 2;
             // 
             // label6
             // 
@@ -362,7 +341,6 @@
             this.panel_HD.Name = "panel_HD";
             this.panel_HD.Size = new System.Drawing.Size(883, 483);
             this.panel_HD.TabIndex = 7;
-            this.panel_HD.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_sanPham_Paint);
             // 
             // tabControl1
             // 
@@ -587,7 +565,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(872, 450);
+            this.tabPage2.Size = new System.Drawing.Size(865, 440);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tìm Kiếm Sản Phẩm";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -608,11 +586,11 @@
             // 
             this.data_GV_timKiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.data_GV_timKiem.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.data_GV_timKiem.Location = new System.Drawing.Point(3, 201);
+            this.data_GV_timKiem.Location = new System.Drawing.Point(3, 191);
             this.data_GV_timKiem.Name = "data_GV_timKiem";
             this.data_GV_timKiem.RowHeadersWidth = 51;
             this.data_GV_timKiem.RowTemplate.Height = 24;
-            this.data_GV_timKiem.Size = new System.Drawing.Size(866, 246);
+            this.data_GV_timKiem.Size = new System.Drawing.Size(859, 246);
             this.data_GV_timKiem.TabIndex = 8;
             this.data_GV_timKiem.Click += new System.EventHandler(this.dataGV_sanPham_Click);
             // 
@@ -694,126 +672,26 @@
             this.rad_TK_Ma.UseVisualStyleBackColor = true;
             this.rad_TK_Ma.CheckedChanged += new System.EventHandler(this.rad_TK_Ma_CheckedChanged);
             // 
-            // panel_HDxuat
+            // label1
             // 
-            this.panel_HDxuat.BackColor = System.Drawing.Color.RosyBrown;
-            this.panel_HDxuat.Controls.Add(this.table_info_accout);
-            this.panel_HDxuat.Controls.Add(this.control_HDxuat);
-            this.panel_HDxuat.Location = new System.Drawing.Point(334, 62);
-            this.panel_HDxuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel_HDxuat.Name = "panel_HDxuat";
-            this.panel_HDxuat.Size = new System.Drawing.Size(876, 478);
-            this.panel_HDxuat.TabIndex = 3;
-            this.panel_HDxuat.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_account_Paint);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(403, 164);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 32);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "hello";
             // 
-            // table_info_accout
+            // panel_banner
             // 
-            this.table_info_accout.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.table_info_accout.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.table_info_accout.Location = new System.Drawing.Point(0, 281);
-            this.table_info_accout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.table_info_accout.Name = "table_info_accout";
-            this.table_info_accout.ReadOnly = true;
-            this.table_info_accout.RowHeadersWidth = 51;
-            this.table_info_accout.RowTemplate.Height = 24;
-            this.table_info_accout.Size = new System.Drawing.Size(876, 197);
-            this.table_info_accout.TabIndex = 4;
-            this.table_info_accout.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.table_info_accout_CellDoubleClick);
-            // 
-            // control_HDxuat
-            // 
-            this.control_HDxuat.Controls.Add(this.tabPage3);
-            this.control_HDxuat.Controls.Add(this.tabPage4);
-            this.control_HDxuat.Location = new System.Drawing.Point(3, 20);
-            this.control_HDxuat.Name = "control_HDxuat";
-            this.control_HDxuat.SelectedIndex = 0;
-            this.control_HDxuat.Size = new System.Drawing.Size(857, 227);
-            this.control_HDxuat.TabIndex = 5;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.btn_seach_HDxuat);
-            this.tabPage3.Controls.Add(this.cb_HDxuat);
-            this.tabPage3.Controls.Add(this.btn_add_HDxuat);
-            this.tabPage3.Controls.Add(this.txt_seach_HDxuat);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(849, 198);
-            this.tabPage3.TabIndex = 0;
-            this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // btn_seach_HDxuat
-            // 
-            this.btn_seach_HDxuat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_seach_HDxuat.Location = new System.Drawing.Point(566, 45);
-            this.btn_seach_HDxuat.Name = "btn_seach_HDxuat";
-            this.btn_seach_HDxuat.Size = new System.Drawing.Size(66, 50);
-            this.btn_seach_HDxuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_seach_HDxuat.TabIndex = 16;
-            this.btn_seach_HDxuat.TabStop = false;
-            // 
-            // cb_HDxuat
-            // 
-            this.cb_HDxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_HDxuat.FormattingEnabled = true;
-            this.cb_HDxuat.Items.AddRange(new object[] {
-            "Mã tài khoản",
-            "Tên Đăng Nhập",
-            "Họ và Tên",
-            "Email",
-            "Vai trò",
-            "Thời gian tạo",
-            ""});
-            this.cb_HDxuat.Location = new System.Drawing.Point(171, 58);
-            this.cb_HDxuat.Name = "cb_HDxuat";
-            this.cb_HDxuat.Size = new System.Drawing.Size(159, 28);
-            this.cb_HDxuat.TabIndex = 15;
-            this.cb_HDxuat.Text = "Mã Sản Phẩm:";
-            // 
-            // btn_add_HDxuat
-            // 
-            this.btn_add_HDxuat.BackColor = System.Drawing.Color.IndianRed;
-            this.btn_add_HDxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_add_HDxuat.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_add_HDxuat.Location = new System.Drawing.Point(346, 117);
-            this.btn_add_HDxuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_add_HDxuat.Name = "btn_add_HDxuat";
-            this.btn_add_HDxuat.Size = new System.Drawing.Size(153, 62);
-            this.btn_add_HDxuat.TabIndex = 14;
-            this.btn_add_HDxuat.Text = "Đăng ký TK";
-            this.btn_add_HDxuat.UseVisualStyleBackColor = false;
-            this.btn_add_HDxuat.Click += new System.EventHandler(this.btn_dangky_Click);
-            // 
-            // txt_seach_HDxuat
-            // 
-            this.txt_seach_HDxuat.Location = new System.Drawing.Point(346, 58);
-            this.txt_seach_HDxuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txt_seach_HDxuat.Name = "txt_seach_HDxuat";
-            this.txt_seach_HDxuat.Size = new System.Drawing.Size(197, 22);
-            this.txt_seach_HDxuat.TabIndex = 13;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.label7);
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(849, 198);
-            this.tabPage4.TabIndex = 1;
-            this.tabPage4.Text = "tabPage4";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(134, 59);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 16);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "helloo";
+            this.panel_banner.BackColor = System.Drawing.Color.White;
+            this.panel_banner.Controls.Add(this.label1);
+            this.panel_banner.Location = new System.Drawing.Point(331, 60);
+            this.panel_banner.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel_banner.Name = "panel_banner";
+            this.panel_banner.Size = new System.Drawing.Size(883, 482);
+            this.panel_banner.TabIndex = 0;
             // 
             // pannel_cuahang
             // 
@@ -871,6 +749,7 @@
             this.dgvCuaHang1.RowTemplate.Height = 24;
             this.dgvCuaHang1.Size = new System.Drawing.Size(829, 198);
             this.dgvCuaHang1.TabIndex = 30;
+            this.dgvCuaHang1.Click += new System.EventHandler(this.dgvCuaHang1_Click);
             // 
             // txtTenCH
             // 
@@ -915,6 +794,7 @@
             this.btnLammoi1.TabIndex = 21;
             this.btnLammoi1.Text = "Làm mới";
             this.btnLammoi1.UseVisualStyleBackColor = false;
+            this.btnLammoi1.Click += new System.EventHandler(this.btnLammoi_Click_1);
             // 
             // btnSua
             // 
@@ -927,6 +807,7 @@
             this.btnSua.TabIndex = 22;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click_1);
             // 
             // btnXoa
             // 
@@ -939,6 +820,7 @@
             this.btnXoa.TabIndex = 23;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click_1);
             // 
             // btnThem
             // 
@@ -951,6 +833,7 @@
             this.btnThem.TabIndex = 24;
             this.btnThem.Text = "Thêm ";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // Diachi
             // 
@@ -1034,6 +917,7 @@
             this.btnTimkiem.TabIndex = 10;
             this.btnTimkiem.Text = "Tìm kiếm";
             this.btnTimkiem.UseVisualStyleBackColor = true;
+            this.btnTimkiem.Click += new System.EventHandler(this.btnTimkiem_Click);
             // 
             // btnLammoi
             // 
@@ -1082,6 +966,7 @@
             this.rdbTimtheodc.TabStop = true;
             this.rdbTimtheodc.Text = "Tìm kiếm theo địa chỉ";
             this.rdbTimtheodc.UseVisualStyleBackColor = true;
+            this.rdbTimtheodc.CheckedChanged += new System.EventHandler(this.rdbTimtheodc_CheckedChanged);
             // 
             // rdbTimtheoten
             // 
@@ -1095,6 +980,7 @@
             this.rdbTimtheoten.TabStop = true;
             this.rdbTimtheoten.Text = "Tìm kiếm theo tên";
             this.rdbTimtheoten.UseVisualStyleBackColor = true;
+            this.rdbTimtheoten.CheckedChanged += new System.EventHandler(this.rdbTimtheoten_CheckedChanged);
             // 
             // rdbTimtheoma
             // 
@@ -1108,6 +994,7 @@
             this.rdbTimtheoma.TabStop = true;
             this.rdbTimtheoma.Text = "Tìm kiếm theo mã";
             this.rdbTimtheoma.UseVisualStyleBackColor = true;
+            this.rdbTimtheoma.CheckedChanged += new System.EventHandler(this.rdbTimtheoma_CheckedChanged);
             // 
             // panel1
             // 
@@ -1227,6 +1114,126 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "helloo";
             // 
+            // control_HDxuat
+            // 
+            this.control_HDxuat.Controls.Add(this.tabPage3);
+            this.control_HDxuat.Controls.Add(this.tabPage4);
+            this.control_HDxuat.Location = new System.Drawing.Point(3, 20);
+            this.control_HDxuat.Name = "control_HDxuat";
+            this.control_HDxuat.SelectedIndex = 0;
+            this.control_HDxuat.Size = new System.Drawing.Size(857, 227);
+            this.control_HDxuat.TabIndex = 5;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.btn_seach_HDxuat);
+            this.tabPage3.Controls.Add(this.cb_HDxuat);
+            this.tabPage3.Controls.Add(this.btn_add_HDxuat);
+            this.tabPage3.Controls.Add(this.txt_seach_HDxuat);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(849, 198);
+            this.tabPage3.TabIndex = 0;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // btn_seach_HDxuat
+            // 
+            this.btn_seach_HDxuat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_seach_HDxuat.Location = new System.Drawing.Point(566, 45);
+            this.btn_seach_HDxuat.Name = "btn_seach_HDxuat";
+            this.btn_seach_HDxuat.Size = new System.Drawing.Size(66, 50);
+            this.btn_seach_HDxuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_seach_HDxuat.TabIndex = 16;
+            this.btn_seach_HDxuat.TabStop = false;
+            // 
+            // cb_HDxuat
+            // 
+            this.cb_HDxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_HDxuat.FormattingEnabled = true;
+            this.cb_HDxuat.Items.AddRange(new object[] {
+            "Mã tài khoản",
+            "Tên Đăng Nhập",
+            "Họ và Tên",
+            "Email",
+            "Vai trò",
+            "Thời gian tạo",
+            ""});
+            this.cb_HDxuat.Location = new System.Drawing.Point(171, 58);
+            this.cb_HDxuat.Name = "cb_HDxuat";
+            this.cb_HDxuat.Size = new System.Drawing.Size(159, 28);
+            this.cb_HDxuat.TabIndex = 15;
+            // 
+            // btn_add_HDxuat
+            // 
+            this.btn_add_HDxuat.BackColor = System.Drawing.Color.IndianRed;
+            this.btn_add_HDxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_add_HDxuat.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_add_HDxuat.Location = new System.Drawing.Point(346, 117);
+            this.btn_add_HDxuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_add_HDxuat.Name = "btn_add_HDxuat";
+            this.btn_add_HDxuat.Size = new System.Drawing.Size(153, 62);
+            this.btn_add_HDxuat.TabIndex = 14;
+            this.btn_add_HDxuat.Text = "Đăng ký TK";
+            this.btn_add_HDxuat.UseVisualStyleBackColor = false;
+            this.btn_add_HDxuat.Click += new System.EventHandler(this.btn_dangky_Click);
+            // 
+            // txt_seach_HDxuat
+            // 
+            this.txt_seach_HDxuat.Location = new System.Drawing.Point(346, 58);
+            this.txt_seach_HDxuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txt_seach_HDxuat.Name = "txt_seach_HDxuat";
+            this.txt_seach_HDxuat.Size = new System.Drawing.Size(197, 22);
+            this.txt_seach_HDxuat.TabIndex = 13;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.label7);
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(849, 198);
+            this.tabPage4.TabIndex = 1;
+            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(134, 59);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(44, 16);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "helloo";
+            // 
+            // table_info_accout
+            // 
+            this.table_info_accout.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.table_info_accout.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.table_info_accout.Location = new System.Drawing.Point(0, 281);
+            this.table_info_accout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.table_info_accout.Name = "table_info_accout";
+            this.table_info_accout.ReadOnly = true;
+            this.table_info_accout.RowHeadersWidth = 51;
+            this.table_info_accout.RowTemplate.Height = 24;
+            this.table_info_accout.Size = new System.Drawing.Size(876, 197);
+            this.table_info_accout.TabIndex = 4;
+            this.table_info_accout.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.table_info_accout_CellDoubleClick);
+            // 
+            // panel_HDxuat
+            // 
+            this.panel_HDxuat.BackColor = System.Drawing.Color.RosyBrown;
+            this.panel_HDxuat.Controls.Add(this.table_info_accout);
+            this.panel_HDxuat.Controls.Add(this.control_HDxuat);
+            this.panel_HDxuat.Location = new System.Drawing.Point(334, 62);
+            this.panel_HDxuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel_HDxuat.Name = "panel_HDxuat";
+            this.panel_HDxuat.Size = new System.Drawing.Size(876, 478);
+            this.panel_HDxuat.TabIndex = 3;
+            this.panel_HDxuat.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_account_Paint);
+            // 
             // home_giaodien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1239,32 +1246,30 @@
             this.Controls.Add(this.app_SanPham);
             this.Controls.Add(this.app_cuahang);
             this.Controls.Add(this.app_account);
-            this.Controls.Add(this.panel_HDxuat);
             this.Controls.Add(this.pannel_cuahang);
             this.Controls.Add(this.panel_banner);
             this.Controls.Add(this.panel_HD);
+            this.Controls.Add(this.panel_HDxuat);
             this.ForeColor = System.Drawing.Color.White;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "home_giaodien";
             this.Text = "home_giaodien";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.home_giaodien_FormClosed);
             this.Load += new System.EventHandler(this.home_giaodien_Load);
-            this.panel_banner.ResumeLayout(false);
-            this.panel_banner.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_account)).EndInit();
             this.app_account.ResumeLayout(false);
             this.app_account.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_account)).EndInit();
             this.app_cuahang.ResumeLayout(false);
             this.app_cuahang.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_sanpham)).EndInit();
             this.app_SanPham.ResumeLayout(false);
             this.app_SanPham.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_sanpham)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel_HD.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -1273,14 +1278,8 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.data_GV_timKiem)).EndInit();
-            this.panel_HDxuat.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.table_info_accout)).EndInit();
-            this.control_HDxuat.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_seach_HDxuat)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
+            this.panel_banner.ResumeLayout(false);
+            this.panel_banner.PerformLayout();
             this.pannel_cuahang.ResumeLayout(false);
             this.control_cuahang.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
@@ -1297,30 +1296,36 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
+            this.control_HDxuat.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_seach_HDxuat)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.table_info_accout)).EndInit();
+            this.panel_HDxuat.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel_banner;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.Panel app_account;
-        private System.Windows.Forms.Label txt_account;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Label txt_account;
         private System.Windows.Forms.PictureBox pic_account;
-        private System.Windows.Forms.Panel app_cuahang;
+        private System.Windows.Forms.Panel app_account;
         private System.Windows.Forms.Label txt_cuahang;
-        private System.Windows.Forms.Panel app_SanPham;
-        private System.Windows.Forms.PictureBox pic_sanpham;
+        private System.Windows.Forms.Panel app_cuahang;
         private System.Windows.Forms.Label txt_sanpham;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pic_sanpham;
+        private System.Windows.Forms.Panel app_SanPham;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel_HD;
         private System.Windows.Forms.TabControl tabControl1;
@@ -1343,26 +1348,18 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridView dataGV_sanPham;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Panel panel_HDxuat;
-        private System.Windows.Forms.DataGridView table_info_accout;
-        private System.Windows.Forms.TabControl control_HDxuat;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.PictureBox btn_seach_HDxuat;
-        private System.Windows.Forms.ComboBox cb_HDxuat;
-        private System.Windows.Forms.Button btn_add_HDxuat;
-        private System.Windows.Forms.TextBox txt_seach_HDxuat;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Panel pannel_cuahang;
-        private System.Windows.Forms.RadioButton rad_TK_DanhMuc;
-        private System.Windows.Forms.RadioButton rad_TK_Ten;
-        private System.Windows.Forms.RadioButton rad_TK_Ma;
+        private System.Windows.Forms.Button btn_TK_LamMoi;
+        private System.Windows.Forms.DataGridView data_GV_timKiem;
+        private System.Windows.Forms.Button btn_TK_timKiem;
         private System.Windows.Forms.ComboBox cmb_TK_DanhMuc;
         private System.Windows.Forms.TextBox txt_TK_Ten;
         private System.Windows.Forms.TextBox txt_TK_MaSP;
-        private System.Windows.Forms.DataGridView data_GV_timKiem;
-        private System.Windows.Forms.Button btn_TK_timKiem;
-        private System.Windows.Forms.Button btn_TK_LamMoi;
+        private System.Windows.Forms.RadioButton rad_TK_DanhMuc;
+        private System.Windows.Forms.RadioButton rad_TK_Ten;
+        private System.Windows.Forms.RadioButton rad_TK_Ma;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel_banner;
+        private System.Windows.Forms.Panel pannel_cuahang;
         private System.Windows.Forms.TabControl control_cuahang;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.DataGridView dgvCuaHang1;
@@ -1388,7 +1385,6 @@
         private System.Windows.Forms.RadioButton rdbTimtheodc;
         private System.Windows.Forms.RadioButton rdbTimtheoten;
         private System.Windows.Forms.RadioButton rdbTimtheoma;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TabControl tabControl3;
@@ -1399,5 +1395,15 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TabControl control_HDxuat;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.PictureBox btn_seach_HDxuat;
+        private System.Windows.Forms.ComboBox cb_HDxuat;
+        private System.Windows.Forms.Button btn_add_HDxuat;
+        private System.Windows.Forms.TextBox txt_seach_HDxuat;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DataGridView table_info_accout;
+        private System.Windows.Forms.Panel panel_HDxuat;
     }
 }

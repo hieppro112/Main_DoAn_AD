@@ -111,3 +111,18 @@ D:\LTUD\DoAn_ver999\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1.0.csproj.Genera
 D:\LTUD\DoAn_ver999\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1.0.csproj.CoreCompileInputs.cache
 D:\LTUD\DoAn_ver999\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1.0.exe
 D:\LTUD\DoAn_ver999\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1.0.pdb
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\bin\Debug\doan_ver1.0.exe.config
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\bin\Debug\doan_ver1.0.exe
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\bin\Debug\doan_ver1.0.pdb
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1.0.csproj.AssemblyReference.cache
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1._0.FormDangKy.resources
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1._0.form_login.resources
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1._0.home_giaodien.resources
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1._0.Info_people.resources
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1._0.Properties.Resources.resources
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1.0.csproj.GenerateResource.cache
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1.0.csproj.CoreCompileInputs.cache
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1.0.exe
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver1.0.pdb
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\bin\Debug\Guna.UI2.dll
+C:\learning program\TDC\LTUD\quanly_cuahang_dienmay\doan_edit\Main_DoAn_AD\doan_ver1.0\obj\Debug\doan_ver.B7330AA3.Up2Date
